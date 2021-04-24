@@ -1,12 +1,12 @@
 <?php
 // Set your server key (Note: Server key for sandbox and production mode are different)
-$server_key = '<SB-Mid-server-noR8rOAjS-ciXlSZz6TkPmTu>';
+$server_key = '<Mid-server-M2FgFg5sdDA1AF_H_50-ChAa>';
 // Set true for production, set false for sandbox
 $is_production = false;
 
 $api_url = $is_production ? 
   'https://app.midtrans.com/snap/v1/transactions' : 
-  'https://app.sandbox.midtrans.com/snap/v1/transactions';
+  'https://api.midtrans.com';
 
 
 // Check if request doesn't contains `/charge` in the url/path, display 404
